@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { GLTFLoader } from 'https://unpkg.com/three@0.138.0/examples/jsm/loaders/GLTFLoader.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { scene } from './scene.js';
 
 function loadModel(onLoaded) {
