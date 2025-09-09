@@ -1,4 +1,4 @@
-import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js';
 
 function setupControls(camera, renderer) {
   const controls = new OrbitControls(camera, renderer.domElement);
